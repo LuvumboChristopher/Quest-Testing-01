@@ -1,0 +1,50 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "01 - Setup the project ",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": "This codetour lists the needed steps to setup jest to work in a typescript project"
+    },
+    {
+      "file": "package.json",
+      "description": "This is a regular node project created with\n```bash\nnpm --init\n```",
+      "line": 2
+    },
+    {
+      "file": "package.json",
+      "description": "We need to install these dev dependencies\n```\nnpm i -D typescript jest @types/jest ts-jest\n```",
+      "line": 24
+    },
+    {
+      "file": "tsconfig.json",
+      "description": "We create the tsconfig\n```\ntsc --init\n```",
+      "line": 1
+    },
+    {
+      "file": "tsconfig.json",
+      "description": "We specify a destination folder for built javascript files\n",
+      "line": 17
+    },
+    {
+      "file": "jest.config.js",
+      "description": "We create the jest config file by running\n```\nnpx ts-jest config:init\n```",
+      "line": 5
+    },
+    {
+      "file": "package.json",
+      "description": "We modify the test script to be able to launch jest with\n```\nnpm test\n```",
+      "line": 7
+    },
+    {
+      "file": "package.json",
+      "description": "We add a build command",
+      "line": 8
+    },
+    {
+      "file": "tsconfig.json",
+      "description": "We prevent the test files to be compiled in javascript",
+      "line": 70
+    }
+  ]
+}

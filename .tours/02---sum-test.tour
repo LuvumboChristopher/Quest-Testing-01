@@ -1,0 +1,35 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "02 - Sum test",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": "This codetour explains the sum test"
+    },
+    {
+      "file": "src/sum.ts",
+      "description": "sum is a regular exported function",
+      "line": 5
+    },
+    {
+      "file": "src/sum.test.ts",
+      "description": "We import the function we want to test",
+      "line": 1
+    },
+    {
+      "file": "src/sum.test.ts",
+      "description": "describe allows you to add some description to a test suite",
+      "line": 3
+    },
+    {
+      "file": "src/sum.test.ts",
+      "description": "`it` allows us to describe exactly what we are testing.\n\nEach `it` should match one testing case",
+      "line": 4
+    },
+    {
+      "file": "src/sum.test.ts",
+      "description": "Here is the real test.\n\n`expect` take the value we are testing and gives access to `matchers`\n\n`toBe` is a `matcher`\n\nCheck `https://jestjs.io/docs/using-matchers` to learn more about matchers.",
+      "line": 5
+    }
+  ]
+}
